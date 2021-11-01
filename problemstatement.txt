@@ -1,0 +1,23 @@
+Problem Statement
+
+There is a string, s, of lowercase English letters that is repeated infinitely many times. Given an integer, n, find and print the number of some letter l in the first n letters of the infinite string.
+
+Example
+s = 'abcac'
+n = 10
+l = 'a'
+
+The substring we consider is 'abcacabcac', the first 10 characters of the infinite string. There are 4 occurrences of 'a' in the substring.
+
+Function Description
+
+charcount has the following parameter(s):
+
+sample: a string to repeat
+size: the number of characters to consider
+targetChar: the letter for which occurrences will be counted
+Returns: the frequency of targetChar in the substring
+
+This problem was based on a Hackerrank challeng called Repeated String
+
+https://www.hackerrank.com/challenges/repeated-string/problem
